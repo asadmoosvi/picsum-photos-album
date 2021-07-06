@@ -95,7 +95,6 @@
       images.forEach((img) => {
         img.addEventListener("click", () => {
           imgCount++;
-          console.log(imgCount);
           img.setAttribute("src", "loading.gif");
           let newUrl = `https://picsum.photos/800?random=${imgCount}`;
 
